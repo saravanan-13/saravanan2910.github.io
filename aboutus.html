@@ -12,8 +12,11 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,300italic,700italic' rel='stylesheet' type='text/css'>
 
 
-    <title>Landing Page - House Partnership Estate Agents</title>
+    <title>Nethra Homes | About Us</title>
 
+    <meta name="description" content="Awesome Description Here">
+    <meta name="keywords" content="keyword 1, keyword 2, keyword 3"/>
+    <meta name="robots" content="index,follow"/>
     <!-- This site is optimized with the Yoast SEO plugin v5.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
     <!-- <link rel="canonical" href="index.html" />
     <meta property="og:locale" content="en_GB" />
@@ -106,6 +109,19 @@
         max-width: 100%;
     }
 
+    @font-face {
+        font-family: 'Manifesto';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Manifesto'), url('./fonts/manifesto.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: 'Bebas Neue Book';
+        font-style: normal;
+        font-weight:100;
+        src: local('Bebas Neue Book'), url('./fonts/BebasNeueBook.otf') format('truetype');
+    }
+
     .carousel-inner .item img{
         height:100%;
         width: 100%;
@@ -151,16 +167,18 @@
     }
 
     .main-content{
+        margin-left: 50px;
         text-align: center;
+        font-family: "Bebas Neue Book",sans-serif !important;
+
     }
 
     .main-quotes h1{
-        font-size: 15px;
+        font-size: 25px;
         letter-spacing: none;
         font-style: italic;
         font-weight: 600;
     }
-
     .main-quotes h2{
         margin-top: -5%;
     }
@@ -172,9 +190,11 @@
     }
 
     .locations span {
-        font-size: 16px;
-        letter-spacing: 0;
+        font-family: "Bebas Neue Book",sans-serif !important;
+        font-size: 18px;
+        letter-spacing: 3px;
         margin:20px;
+        font-weight: 600;
 
     }
 
@@ -183,10 +203,18 @@
         color: black;
     }
 
-    .locations span a:hover {
+    .locations span a:hover,#main-nav-wrap a:hover {
 
-        color:#d65050;
+        color:#26928E;
 
+    }
+    #main-nav-wrap{
+        font-family: "Bebas Neue Book",sans-serif !important;
+
+    }
+
+    #main-footer{
+        font-family: "Bebas Neue Book",sans-serif !important;
     }
 
     #top-image.scrolled {
@@ -195,10 +223,10 @@
     }
 
     #footer-lower-menu a{
-        letter-spacing: 0;
+        letter-spacing: 3px;
     }
     #footer-menu a{
-        letter-spacing: 0;
+        letter-spacing: 3px;
     }
 
     #menu-item-767,#menu-item-444,#menu-item-20{
@@ -350,13 +378,13 @@
                     <img src="Kanathur/FrontStairs-square.jpg" class="img-responsive" alt="">
                 </div>
 
-                <div class="col-md-5 main-content">
+                <div class="col-md-6 main-content">
 
                     <div class="main-head">
-                        <h2>Our Story</h2>
+                        <h2 style="font-size: 25px;">Our Story</h2>
                     </div>
                     <div class="main-desc">
-                        <p style="letter-spacing:0.5px;">
+                        <p style="letter-spacing:2.5px;font-weight: 600;">
                             We embarked on our journey in construction over half a century ago.
                             Our affinity for perfection in construction began with office and
                             college buildings, hospitals, bridges, water supply projects and roads,
@@ -369,7 +397,6 @@
                     </div>
 
                 </div>
-
             </div>
 
         </div>
@@ -449,7 +476,7 @@
     <footer id="main-footer" role="contentinfo">
 
         <div id="footer-logo">
-            <h1 style="color: white;font-weight: 600;padding-bottom: 0;margin-bottom: -5%;letter-spacing:0.2px;">NETHRA HOMES</h1>
+            <h1 style="color: white;font-weight: 600;padding-bottom: 0;margin-bottom: -5%;letter-spacing:3px;">NETHRA HOMES</h1>
         </div>
 
 
