@@ -80,7 +80,7 @@ a:hover,a:focus,a:active,
 .comment-reply,
 .contact-details ul.info .icon,
 footer a{
-  color: #f3474b;
+  color: #26928E;
 }
 
 .btn.btn-info:hover,
@@ -186,9 +186,11 @@ body #header.gradient-header,
 .featured-posts-slider .customnav>span:hover,
 .portfolio-items-v2.portfolio-items .item figure .caption,
 .owl-controls .owl-nav>div:hover{
-	background-image: -moz-linear-gradient( 135deg, rgba(255, 122, 43, 0.94) 0%, rgb(228, 49, 114) 100%);
-	background-image: -webkit-linear-gradient( 135deg, rgba(255, 122, 43, 0.94) 0%, rgb(228, 49, 114) 100%);
-	background-image: -ms-linear-gradient( 135deg, rgba(255, 122, 43, 0.94) 0%, rgb(228, 49, 114) 100%);
+
+	background-image: -moz-linear-gradient( 135deg, #00ecff 0%, #26928E 100%);
+	background-image: -webkit-linear-gradient( 135deg, #00ecff 0%,  #26928E 100%);
+	background-image: -ms-linear-gradient( 135deg, #00ecff 0%,  #26928E 100%);
+
 }
 
 .bgcolor-major-gradient-overlay2{

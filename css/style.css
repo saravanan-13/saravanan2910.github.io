@@ -11,6 +11,19 @@ body{
     background-color: #ca4c5d;
 }
 
+@font-face {
+    font-family: 'Manifesto';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Manifesto'), url('../fonts/manifesto.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bebas Neue Book';
+    font-style: normal;
+    font-weight:normal;
+    src: local('Bebas Neue Book'), url('../fonts/BebasNeueBook.otf') format('truetype');
+}
+
 /* FLOAT, ALIGN AND WIDTH STYLES */
 .half_width {
     width: 50%;
@@ -121,12 +134,14 @@ p.big {
     color: #c2c2c2;
 }
 p.huge {
+    font-family: "Bebas Neue Book",sans-serif !important;
     font-size: 30px;
     line-height: 68px;
     margin-bottom: 48px;
     color: black;
     text-align: center;
-    letter-spacing:1px;
+    letter-spacing:3px;
+    font-weight: 500;
 }
 .nomargin {
     margin-bottom: 0!important;
@@ -185,7 +200,10 @@ p.mid a:hover {
     color: #f8696d !important;
 }
 a:visited {
-    color: #E45064;
+    color: #26928E;
+}
+a:hover{
+    color: #26928E;
 }
 .dyff_color_background {
     background-color: #E45064 !important;
@@ -1071,14 +1089,16 @@ a.reverse:hover {
     padding: 12px 30px;
     border-radius: 2px;
     text-align: left;
+    font-family: "Bebas Neue Book",sans-serif !important;
 }
 .item-filter.item-filter-v2>li{
     padding: 0;
     background-color: transparent;
-    color: #a6a6a6;
-    font-weight: 700;
+    color: black;
+    font-weight:600;
     position: relative;
     margin-right: 50px;
+    letter-spacing: 2px;
 }
 .item-filter.item-filter-v2>li:last-child{
     margin-right: 0;
@@ -1102,7 +1122,7 @@ a.reverse:hover {
 .item-filter.item-filter-v2>li:hover:before,
 .item-filter.item-filter-v2>li.active:before {
     width: 50%;
-    background-color: red;
+    background-color: #26928E;
 }
 .portfolio-items-v2 .item figure{
     overflow: hidden;
@@ -1972,13 +1992,16 @@ blockquote {
     position: relative;
 }
 .tabbed-about-us .tabs-nav li:last-child{ margin-right: 0; }
-.tabbed-about-us .tabs-nav li *{ color: #666666; }
+.tabbed-about-us .tabs-nav li *{ color:black !important;
+font-weight: 600;}
 .tabbed-about-us .tabs-nav li span.icon {
     display: block;
     font-size: 30px;
     padding-bottom: 5px;
     -webkit-transition: .3s;
     transition: .3s;
+    font-weight:600;
+    color: black !important;
 }
 .tabbed-about-us .tabs-nav li:after {
     content: "";
@@ -2032,7 +2055,8 @@ blockquote {
 }
 .tabbed-about-us-v2.tabbed-about-us .details p {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
+    color: black !important;
     letter-spacing: 2px;
 }
 .tabbed-about-us-v2.tabbed-about-us .bgcolor-major-gradient-overlay {
