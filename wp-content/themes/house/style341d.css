@@ -1015,11 +1015,12 @@ strong {
 }
 
 
-#top-image img{
+#top-image  img{
   width: 70px;
   height: 35px;
   position: fixed;
   left: 2%;
+  top: 2%;
 }
 #contact-details,#contact-details p {
   font-family: "Bebas Neue Book",sans-serif !important;
