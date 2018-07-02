@@ -193,11 +193,12 @@ body #header.gradient-header,
 
 }
 
-.bgcolor-major-gradient-overlay2{
-	background-image: -moz-linear-gradient( 90deg, rgba(236, 236, 236, 0.94) 0%, rgb(255, 255, 255) 100%);
-	background-image: -webkit-linear-gradient( 90deg, rgba(236, 236, 236, 0.94) 0%, rgb(255, 255, 255) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgba(236, 236, 236, 0.94) 0%, rgb(255, 255, 255) 100%);
-}
+
+/*.bgcolor-major-gradient-overlay2{*/
+	/*background-image: -moz-linear-gradient( 90deg, rgba(236, 236, 236, 0.94) 0%, rgb(255, 255, 255) 100%);*/
+	/*background-image: -webkit-linear-gradient( 90deg, rgba(236, 236, 236, 0.94) 0%, rgb(255, 255, 255) 100%);*/
+	/*background-image: -ms-linear-gradient( 90deg, rgba(236, 236, 236, 0.94) 0%, rgb(255, 255, 255) 100%);*/
+/*}*/
 
 .bgcolor-major-gradient-overlay3{
 	background-image: -moz-linear-gradient( 1350deg, rgb(234, 66, 101) 0%, rgb(250, 115, 65) 100%);

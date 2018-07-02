@@ -1011,8 +1011,29 @@ strong {
 
 .home #top-image {
   overflow: hidden;
-  background-color:rgba(255,255,255,0.3);
+  background-color:white;
 }
+
+
+#top-image img{
+  width: 70px;
+  height: 35px;
+  position: fixed;
+  left: 2%;
+}
+#contact-details,#contact-details p {
+  font-family: "Bebas Neue Book",sans-serif !important;
+  text-transform: uppercase;
+}
+
+#contact-details p{
+  color: white;
+  display: flex;
+  font-weight: 600;
+}
+
+
+
   .home #top-image h1 {
     width: 100%;
     position: absolute;
